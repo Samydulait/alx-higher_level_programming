@@ -1,10 +1,8 @@
-# 100-matrix_mul.txt
-
 ============================
 How to Use 100-matrix_mul.py
 ============================
 
-his module defines a matrix multiplication function ``matrix_mul(m_a, m_b)``.
+This module defines a matrix multiplication function ``matrix_mul(m_a, m_b)``.
 
 Usage
 =====
@@ -79,7 +77,6 @@ A minimum of two arguments must be provided. Otherwise, a TypeError is raised.
     >>> print(matrix_mul()) # doctest: +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     TypeError: matrix_mul() missing 2 required positional arguments: 
-
     'm_a' and 'm_b'
 
 ValueErrors
@@ -102,7 +99,6 @@ equal to the column count in ``m_b``), a ValueError is raised.
     >>> print(matrix_mul(m_a, m_b))
     Traceback (most recent call last):
     ValueError: m_a and m_b can't be multiplied
-
 
 
 The parameters ``m_a`` and ``m_b`` cannot be empty. Otherwise, a ValueError
