@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 """Unittests for max_integer([..])."""
 
 import unittest
@@ -44,12 +44,12 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_string(self):
         """Test a string."""
-        string = "Ehoneah"
+        string = "Samydulait"
         self.assertEqual(max_integer(string), 'r')
 
     def test_list_of_strings(self):
         """Test a list of strings."""
-        strings = ["Ehoneah", "is", "my", "name"]
+        strings = ["Samydulait", "is", "my", "name"]
         self.assertEqual(max_integer(strings), "name")
 
     def test_empty_string(self):
